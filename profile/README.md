@@ -87,7 +87,7 @@ Data            Hugging Face Datasets · yt-dlp · pyannote.audio · Silero VAD
 | | |
 |---|---|
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" width="28" align="center"/> **Microsoft for Startups** | $10,000 Azure credits for compute and deployment |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" width="24" align="center"/> **Google Cloud** | TRC Support program for AI research |
+| <img src="./googlecloudsvg.svg" width="24" align="center"/> **Google Cloud** | TRC Support program for AI research |
 | <img src="./modalsvg.svg" width="24" align="center"/> **Modal** | Compute partnership for GPU-accelerated training and inference |
 
 </div>
