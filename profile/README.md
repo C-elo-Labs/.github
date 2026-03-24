@@ -30,6 +30,7 @@ C-elo Labs builds **high-performance AI tools for low-resource African languages
 | 🎙️ **Voice Chat** | Speak Kikuyu, hear AI respond in Kikuyu — real-time streaming voice AI | [c-elo.com/c-elo-ai](https://c-elo.com/c-elo-ai) |
 | 🌐 **Translation** | English ↔ Kikuyu neural translation (19.61 BLEU — 758% over baseline) | [c-elo.com/c-elo-ai](https://c-elo.com/c-elo-ai) |
 | 🔊 **Text-to-Speech** | Type Kikuyu text, hear it spoken naturally | [c-elo.com/c-elo-ai](https://c-elo.com/c-elo-ai) |
+| 🗺️ **C-elo Maps** | Turn-by-turn navigation with Kikuyu voice guidance — the first nav app in an African indigenous language | [c-elo.com/#maps](https://c-elo.com/#maps) |
 
 ---
 
@@ -70,11 +71,12 @@ We curate and process multi-source datasets for low-resource language AI:
 
 ```
 Frontend        Next.js · TypeScript · React
+Mobile          React Native · Expo · Mapbox
 Backend         FastAPI · Python
 ML/AI           PyTorch · Transformers · Unsloth · LoRA · vLLM
 Models          TranslateGemma-12B · MMS-1b-all · MMS-TTS · Mimi · Moshi · Gemini
 Compute         Modal (A10G/A100/H100 GPUs) · Azure
-Deployment      Modal Serverless · Vercel
+Deployment      Modal Serverless · Vercel · EAS Build
 Data            Hugging Face Datasets · yt-dlp · pyannote.audio · Silero VAD
 ```
 
@@ -115,10 +117,12 @@ We're progressively open-sourcing our work. Here's what's coming:
 - [x] Build and deploy real-time voice chatbot pipeline
 - [x] Adapt Mimi neural codec for Kikuyu (Stage 1)
 - [x] Deploy live platform at c-elo.com
+- [x] Build and ship C-elo Maps — Kikuyu voice navigation for Android
 - [ ] Fine-tune Moshi for full-duplex Kikuyu conversation (Stage 2)
-- [ ] Expand to additional African languages (Kamba, Luo, Swahili dialects)
+- [ ] Expand to additional African languages (Kamba, Luo, Kalenjin, Luhya)
 - [ ] Launch public API for developers
 - [ ] Publish research papers on low-resource language AI
+- [ ] iOS version of C-elo Maps
 
 ---
 
